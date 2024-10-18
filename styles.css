@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #0F0F1A;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    max-width: 1366px;
+}
+
+.thumb {
+    padding: 1rem;
+    position: relative;
+    max-width: 695px;
+}
+
+.image-login {
+    position: relative;
+}
+
+.image-login, .image-login img {
+    max-width: 663px;
+    width: 100%;
+}
+
+.image-login img, .shadow {
+    border-radius: 18px;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom left, #1A1B2DBF 20%, #1A1B2DE5 90%);
+}
+
+.logo {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+}
+
+.text {
+    position: absolute;
+    bottom: 40px;
+    left: 48px;
+    gap: 12px;
+    width: 346px;
+    height: 107px;
+}
+
+.text h2 {
+    font-family: Rammetto One;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.02px;
+    color: #B5B6C9;
+}
+
+.text h1 {
+    font-family: Rammetto One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33.78px;
+    color: #E4E5EC;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    width: 671px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 135px;
+    right: 150px;
+    gap: 52px;
+    width: 328px;
+    height: 353px;
+}
+
+.menu {
+    display: flex;
+    padding: 4px;
+    border-radius: 10px;
+    gap: 4px;
+    width: 328px;
+    background-color: #131320;
+}
+
+.menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 6px;
+    gap: 8px;
+    width: 158px;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.menu-login {
+    background-color: #1A1B2D;
+    color: #A85FDD;
+}
+
+.menu-cadastro {
+    color: #7A7B9F;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form h1 {
+    font-family: Rammetto One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40.54px;
+    color: #E5E2E9;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
