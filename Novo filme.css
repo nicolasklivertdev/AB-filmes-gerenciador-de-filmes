@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #0F0F1A;
+}
+
+.container {
+    margin: auto;
+    max-width: 1366px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    border-bottom: 1px solid #131320;
+    height: 79px;
+}
+
+.logo img {
+    width: 48px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.menu-item1, .menu-item2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-item1 img, .menu-item2 img {
+    filter: brightness(30%) saturate(100%) invert(53%) sepia(25%) saturate(337%) hue-rotate(180deg) brightness(91%) contrast(89%);
+}
+
+.menu-item1 p, .menu-item2 p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.menu-item1 p, .menu-item2 p {
+    color: #7A7B9F;
+}
+
+.menu-item2 {
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.info, .user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.info {
+    border-radius: 10px;
+}
+
+.user p {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.user img {
+    margin-top: 4px;
+}
+
+.user2, .side-menu, .menu-toggle {
+    display: none;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    border: 1px solid #1A1B2D;
+    height: 32px;
+}
+
+.info-button {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    border-radius: 6px;
+    gap: 12px;
+    background-color: #1A1B2D;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-right: 9.3rem;
+    margin-left: 9.3rem;
+    margin-bottom: 8.5rem;
+    gap: 48px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 18px;
+    gap: 1.3rem;
+    min-width: 381px;
+    background-color: #1A1B2D;
+}
+
+#image {
+    position: absolute;
+    left: 140px;
+    opacity: 0;
+    width: 100px;
+}
+
+.image:hover {
+    cursor: pointer;
+}
+
+.image p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    color: #7A7B9F;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+form h3 {
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.52px;
+    color: #E4E5EC;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.component-input1, .component-input2, .component-input3 {
+    display: flex;
+    gap: 6px;
+}
+
+.component-input2, .component-input3 {
+    width: 100%;
+}
+
+.field, .field-text-area {
+    display: flex;
+    padding: 12px 16px;
+    border: 1px solid #1A1B2D;
+    border-radius: 6px;
+    gap: 8px;
+}
+
+.field {
+    align-items: center;
+    width: 100%;
+}
+
+input {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background: transparent;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #7A7B9F;
+}
+
+.input2-3 {
+    display: flex;
+    gap: 1rem;
+}
+
+.component-text-area {
+    display: flex;
+    gap: 6px;
+}
+
+.field-text-area {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 16px;
+    padding-bottom: 0px;
+    border: 1px solid #1A1B2D;
+    border-radius: 6px;
+    gap: 8px;
+    width: 100%;
+    height: 188px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+}
+
+.link {
+    display: flex;
+    gap: 8px;
+}
+
+.link p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: #7A7B9F;
+}
+
+.button {
+    display: flex;
+    padding: 12px 20px;
+    border-radius: 6px;
+    gap: 8px;
+    background-color: #892CCD;
+}
+
+.button p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1044px) {
+    .menu {
+        position: relative;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        margin-right: 3.6rem;
+        margin-left: 3.6rem;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image {
+        width: 381px;
+        height: 490px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .user, .menu-toggle, .menu {
+        display: none;
+    }
+
+    .user2 {
+        display: flex;
+        border-radius: 10px;
+        margin-left: auto;
+        position: absolute;
+        top: 23px;
+        right: 84px;
+    }
+    
+    .user2:hover {
+        cursor: pointer;
+    }
+
+    .side-menu {
+        display: none;
+        flex-direction: column;
+        margin-left: auto;
+        padding: 13px 12px;
+        padding-right: 29px;
+        border-left: 1px solid rgb(20, 20, 33);
+        border-bottom: 1px solid rgb(20, 20, 33);
+        border-right: 1px solid rgb(20, 20, 33);
+        position: absolute;
+        top: 80px;
+        right: 0;
+        z-index: 5;
+        gap: 12px;
+        width: 105px;
+        background-color: rgb(15, 15, 26);
+    }
+
+    .menu-toggle:checked + label + .side-menu {
+        display: flex;
+    }
+
+    .menu3, .menu4 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .menu3 {
+        padding: 8px 12px;
+    }
+
+    .menu4 {
+        padding: 8px 12px;
+        border-radius: 6px;
+        color: #7A7B9F;
+    }
+
+    .menu3 p, .menu4 p {
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .menu3 img, .menu4 img {
+        filter: brightness(30%) saturate(100%) invert(53%) sepia(25%) saturate(337%) hue-rotate(180deg) brightness(91%) contrast(89%);
+    }
+
+    .menu3 p {
+        color: #7A7B9F;
+    }
+
+    .menu4 p {
+        color: #7A7B9F;
+    }
+
+}
+
